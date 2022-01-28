@@ -84,3 +84,14 @@ button:hover{
   background-color:rgb(236, 154, 218) ;
   color: white;
 } */ 
+
+.eachColumn{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: start;
+
+}
+.eachColumn h1{
+  padding-left: 10px;
+}

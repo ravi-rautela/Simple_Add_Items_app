@@ -1,7 +1,7 @@
 import React from 'react'
 import './App.css'
 import About from './Components/useEffects/useContext/About';
-import Home from './Components/useEffects/useContext/Home';
+// import Home from './Components/useEffects/useContext/Home';
 // import ReactLoginForm from './Components/ReactLoginForm'
 // import UseEffect_One from './Components/useEffects/UseEffect_One';
 // import UseEffect_two from './Components/useEffects/UseEffect_two';
@@ -11,6 +11,7 @@ import Home from './Components/useEffects/useContext/Home';
 import Navbar from './Components/useEffects/useContext/Navbar';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Login from './Components/useEffects/useContext/Login';
+import MainConatainer from './Components/todo/MainConatainer';
 
 
 // import ReactArray from './Components/ReactArray'
@@ -36,7 +37,7 @@ function App() {
       <div>
         <Navbar />
         <Routes>
-          <Route exact path="/" element={(<Home />)} />
+          <Route exact path="/" element={(<MainConatainer />)} />
           <Route exact path="/about" element={(<About />)} />
           <Route exact path="/login" element={(<Login />)} />
         </Routes>

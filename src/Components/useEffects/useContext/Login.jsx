@@ -11,7 +11,7 @@ function Login() {
             closeOnClick: true,
             pauseOnHover: true,
             draggable: true,
-            progress: undefined,
+            progress: undefined
         });
     }
     return <div className='container mt-4'>
